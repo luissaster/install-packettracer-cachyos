@@ -1,6 +1,6 @@
 # Packet Tracer Installer for CachyOS
 
-This repository contains a script to automate the installation of Cisco Packet Tracer on Arch Linux and its derivatives (like CachyOS, Manjaro, EndeavourOS).
+This repository contains a script to automate the installation of Cisco Packet Tracer 9.0.0 on Arch Linux and its derivatives (like CachyOS, Manjaro, EndeavourOS).
 
 It handles the AUR package building process, fixes common issues with the latest version (like missing binaries or symlinks), and corrects permission errors that prevent the EULA from being accepted.
 
