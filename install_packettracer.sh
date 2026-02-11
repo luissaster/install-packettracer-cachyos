@@ -35,8 +35,8 @@ fi
 echo -e "${GREEN}File found: $DEB_PATH${NC}"
 
 # Install build dependencies
-echo -e "${GREEN}Installing build dependencies (base-devel, git)...${NC}"
-if ! sudo pacman -S --needed --noconfirm base-devel git; then
+echo -e "${GREEN}Installing build dependencies (base-devel, git, fuse2)...${NC}"
+if ! sudo pacman -S --needed --noconfirm base-devel git fuse2; then
     echo -e "${RED}Failed to install dependencies.${NC}"
     exit 1
 fi
